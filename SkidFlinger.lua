@@ -1168,7 +1168,7 @@ local Anim = "Idle"
 
 
 Humanoid.WalkSpeed = 20
-Msgreq("FE Neko Anims V1.6","FE Neko Animations Loaded, have fun - Made by Creo",5,nil)
+Msgreq("Skid Flinger","Time to Fling the Skids!",5,nil)
 while true do
 	swait()
 	hitfloor = rayCast(RootPart.Position, CFrame.new(RootPart.Position, RootPart.Position - Vector3.new(0, 0.5, 0)).lookVector, 4, CloneChar)
