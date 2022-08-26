@@ -914,7 +914,7 @@ if Tail ~= nil then
 
 else
 	TailWeld = Instance.new("Weld",workspace)
-	Msgreq("FE Neko Anims V1.6","Loading Without Tail Accessory (Check top of script for the accessory)",5,nil)
+	Msgreq("Skid Flinger","Bypass Enabled.",5,nil)
 end
 local TC0 = TailWeld.C0 * CFrame.new(0,0,0.4)
 local Song = Instance.new("Sound",RootPart)
